@@ -1,0 +1,21 @@
+/* Selector {
+    property : value;
+} */
+
+body {
+  background-image: url(https://drive.google.com/drive/u/2/my-drive);
+  background-size: cover;
+}
+header {
+  background-color: yellow;
+}
+h1 {
+  color: red;
+}
+
+p {
+  color: green;
+}
+p {
+  color: blue;
+}

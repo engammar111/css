@@ -1,0 +1,19 @@
+/* Selector {
+    property : value;
+} */
+
+header {
+  background-color: yellow;
+}
+h1 {
+  color: red;
+  text-align: center;
+  border: 10px solid black;
+}
+
+p {
+  color: green;
+}
+p {
+  color: blue;
+}
