@@ -3,7 +3,7 @@
 } */
 
 * {
-  text-align: center;
+  text-align: right;
 }
 
 header {
@@ -15,7 +15,7 @@ header {
   );
 }
 
-h1 {
+h1:first-child {
   color: #ffb740;
   text-align: center;
   border: 8px dashed #ffb740;
@@ -23,36 +23,16 @@ h1 {
 }
 
 p {
-  color: red;
-  text-align: center;
+  color: red !important;
+  text-align: center !important ;
   border: 8px dashed rgba(0, 0, 255, 0.4);
   cursor: pointer;
 }
-
 p {
-  color: #ffb740;
+  color: green;
+  text-align: left;
 }
 
-li {
+li:hover {
   list-style: none;
-}
-
-.red {
-  color: red;
-  border: 8px dashed rgba(0, 255, 0, 1);
-}
-
-.nopointer {
-  cursor: auto;
-}
-.back {
-  background-color: #ffb740;
-}
-
-#blue {
-  background-color: rgba(0, 0, 255, 0.2);
-}
-
-#green {
-  background-color: rgba(0, 255, 0, 0.2);
 }
