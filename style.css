@@ -2,15 +2,8 @@
     property : value;
 } */
 
-body {
-  background-image: linear-gradient(
-    to left,
-    rgba(255, 30, 0, 0.5),
-    rgba(0, 162, 255, 0.5)
-  );
-
-  /* background-image: url("https://images.unsplash.com/photo-1615570994550-d8e21ca26c31?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=634&q=80");
-  background-size: cover; */
+* {
+  text-align: center;
 }
 
 header {
@@ -21,6 +14,7 @@ header {
     rgba(0, 255, 98, 0.4)
   );
 }
+
 h1 {
   color: #ffb740;
   text-align: center;
@@ -34,9 +28,31 @@ p {
   border: 8px dashed rgba(0, 0, 255, 0.4);
   cursor: pointer;
 }
+
 p {
   color: #ffb740;
 }
+
 li {
   list-style: none;
+}
+
+.red {
+  color: red;
+  border: 8px dashed rgba(0, 255, 0, 1);
+}
+
+.nopointer {
+  cursor: auto;
+}
+.back {
+  background-color: #ffb740;
+}
+
+#blue {
+  background-color: rgba(0, 0, 255, 0.2);
+}
+
+#green {
+  background-color: rgba(0, 255, 0, 0.2);
 }
