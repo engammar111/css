@@ -1,3 +1,9 @@
 h1 {
   color: blue;
 }
+p {
+  font-size: 10vw;
+}
+span {
+  font-size: 10vw;
+}

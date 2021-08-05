@@ -21,18 +21,22 @@ h1:first-child {
   border: 8px dashed #ffb740;
   cursor: move;
 }
-
-p {
-  color: red !important;
-  text-align: center !important ;
-  border: 8px dashed rgba(0, 0, 255, 0.4);
-  cursor: pointer;
+img {
+  float: right;
 }
-p {
-  color: green;
-  text-align: left;
+.footer {
+  clear: both;
 }
 
-li:hover {
+p {
+  line-height: 50px;
+  font-style: italic;
+  font-size: 200%;
+  font-weight: bolder;
+  font-family: "Georama", sans-serif;
+  font-family: "Style Script", cursive;
+}
+
+li {
   list-style: none;
 }
